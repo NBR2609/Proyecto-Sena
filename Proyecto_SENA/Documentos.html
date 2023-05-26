@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulos y Requisitos | Blankarti</title>
+    <link rel="stylesheet" href="Assets/Css/Styles.css">
+    <link rel="stylesheet" href="Assets/Css/Styles2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap" rel="stylesheet">
+</head>
+<body id="Bo1">
+    <header>
+        <a href="Inicio.html" class="Logo" id="a1">
+            <img src="Assets/Img/Logo.png" alt="Blankarti"id="q">
+            <h2 class="Nombre-empresa" >Blankarti</h2>
+        </a>
+        </div>
+        <nav>
+            <a href="Inicio.html" class="nav-link" id="a1">Inicio</a>
+            <a href="Formato.html" class="nav-link" id="a1">Formato de aprendiz</a>
+            <a href="Problematica.html" class="nav-link" id="a1">Problematica</a>
+            <a href="Documentos.html" class="nav-link" id="a1">Modulos y Requisitos</a>
+            <a href="Diagramas.html" class="nav-link" id="a1">Diagramas y Documentación</a>
+            <a href="Base_de_datos.html" class="nav-link" id="a1">Base de datos</a>
+            <a href="https://www.facebook.com/ArtesaniasEnPorcelanicron.1" class="nav-link"><img src="Assets/Img/F.png" alt="Facebook" height="25px" width="25px"></a>
+            <a href="https://www.instagram.com/blankarti/" class="nav-link"><img src="Assets/Img/In.png" alt="Instagram" height="25px" width="25px"></a>
+            <a href="https://api.whatsapp.com/send?phone=%2B573102734744&fbclid=IwAR1MDMxlERasZUvm8smRbqrODp5791ov4vvlS4SJ_Mm799KwsoEUFgjhZU8" class="nav-link"><img src="Assets/Img/W.png" alt="WhatsApp" height="25px" width="25px"></a>
+        </nav>
+</header>
+<div id="Div5">
+    <br><br>
+    <p><b>MODULO 1:</b> Gestión de Usuarios (Administrador)</p>
+    <ul id="ul1">
+        <li><b>Nombre del módulo:</b> Módulo de gestión de usuarios. </li>
+        <li><b>Descripción del módulo:</b> Este módulo permite realizar la gestión de los usuarios (crearlos, consultarlos, modificarlos, inactivarlos).</li>
+        <li><b>Información del proceso (casos de uso involucrados con su respectiva función):</b></li>
+        <ol>
+            <li><b>CU001 Validar Inicio Sesión:</b> Se debe validar el acceso al sistema verificando por lo menos dos datos Usuario y contraseña, la validación debe hacerse con un procedimiento almacenado en la base de datos, el único actor que puede realizar la gestión de usuario es el administrador</li>
+            <li><b>CU002 Gestionar Usuarios:</b> Una vez validado el ingreso del administrador al sistema, éste podrá realizar el registro, la consulta, la actualización o la inactivación de los usuarios que se encuentran en la base de datos</li>
+        </ol>
+    </ul>
+    <p><b>MODULO 2:</b> Gestión de Productos (Administrador)</p>
+    <ul id="ul1">
+        <li><b>Nombre del módulo:</b> Módulo de gestión de productos.</li>
+        <li><b>Descripción del módulo:</b> Este módulo permite realizar la gestión de los productos (crearlos, consultarlos, modificarlos, inactivarlos).</li>
+        <li><b>Información del proceso (casos de uso involucrados con su respectiva función):</b></li>
+        <ol>
+            <li><b>CU001 Validar Inicio Sesión:</b> Se debe validar el acceso al sistema verificando por lo menos dos datos Usuario y contraseña, la validación debe hacerse con un procedimiento almacenado en la base de datos, el único actor que puede realizar la gestión de productos es el administrador</li>
+            <li><b>CU002 Gestionar Productos:</b> Una vez validado el ingreso del administrador al sistema, éste podrá realizar el registro, la consulta, la actualización o la inactivación de los productos que se encuentran en la base de datos</li>
+        </ol>
+        <li><b>Reporte de existencia de productos:</b></li>
+        <p><b>Generar reporte de observador para firmas:</b> En el formulario de gestión de productos se permitirá la generación de un reporte de existencias, en formato PDF, únicamente al usuario administrador</p>
+    </ul>
+    <p><b>MODULO 3:</b> Gestión de Clientes (Administrador - Cliente)</p>
+    <ul id="ul1">
+        <li><b>Nombre del módulo:</b> Módulo de gestión de clientes.</li>
+        <li><b>Descripción del módulo:</b> Este módulo permite realizar la gestión de los clientes (crearlos, consultarlos, modificarlos, inactivarlos).</li>
+        <li><b>Información del proceso (casos de uso involucrados con su respectiva función):</b></li>
+        <ol>
+            <li><b>CU001 Validar Inicio Sesión:</b> Se debe validar el acceso al sistema verificando por lo menos dos datos Usuario y contraseña, la validación debe hacerse con un procedimiento almacenado en la base de datos, el actor administrador tiene todos los privilegios sobre el módulo, mientras que el actor cliente puede crear su usuario, consultar, modificar e inactivar su cuenta únicamente.</li>
+            <li><b>CU002 Gestionar Clientes:</b> Una vez validado el ingreso al sistema, se podrá realizar el registro, la consulta, la actualización o la inactivación de los clientes que se encuentran en la base de datos</li>
+        </ol>
+    </ul>
+    <p><b>MODULO 4:</b> Gestión de Ventas (Cliente - Administrador)</p>
+    <ul id="ul1">
+        <li><b>Nombre del módulo:</b> Módulo de gestión de clientes.</li>
+        <li><b>Descripción del módulo:</b> Este módulo permite realizar la gestión de los clientes (crearlos, consultarlos, modificarlos, inactivarlos).</li>
+        <li><b>Información del proceso (casos de uso involucrados con su respectiva función):</b></li>
+        <ol>
+            <li><b>CU001 Validar Inicio Sesión:</b> Se debe validar el acceso al sistema verificando por lo menos dos datos Usuario y contraseña, la validación debe hacerse con un procedimiento almacenado en la base de datos, el actor administrador tiene todos los privilegios sobre el módulo, mientras que el actor cliente puede crear su usuario, consultar, modificar e inactivar su cuenta únicamente.</li>
+            <li><b>CU002 Gestionar Clientes:</b>  Una vez validado el ingreso del administrador al sistema, éste podrá realizar el registro, la consulta o la anulación de las ventas que se encuentran en la base de datos. El cliente podrá registrar una nueva venta y consultar su histórico.</li>
+        </ol>
+        <li><b>Reporte de factura por cliente:</b></li>
+        <p><b>Generar reporte de factura por venta hecha a un cliente:</b> Una vez el cliente finalice el proceso de compra, se genera la factura correspondiente en formato PDF</p>
+    </ul>
+</div>
+<div id="Cont">
+    <br>
+    <h1 id="H0">Requisitos Funcionales</h1>
+    <br>
+</div>
+<div id="Div6">
+    <table border="solid">
+        <thead>
+            <tr>
+            <th id="th2">CÓDIGO</th>
+            <th id="th2">REQUISITOS FUNCIONALES</th>
+        </thead>
+        </tr>
+        <tr>
+        <tbody>    
+            <td rowspan="4" id="Td1">RQF001</td>
+            <td id="Td3"><b>Nombre:</b> Ingresar al sistema</td>
+        </tr>
+        <tr>
+            <td id="Td3"><b>Descripción:</b> El sistema permitirá el acceso a los usuarios registrados mediante la autenticación por nombre de usuario y contraseña</td>
+        </tr>
+        <tr>
+            <td id="Td3"><b>Usuarios:</b> administrador, cliente</td>
+        </tr>
+        </tbody>
+    </table>
+<br><br>
+    <table border="solid">
+        <thead>
+            <tr>
+                <th id="th2">CÓDIGO</th>
+                <th id="th2">REQUISITOS FUNCIONALES</th>
+        </thead>
+        </tr>
+        <tr>
+        <tbody>
+                <td rowspan="4" id="Td1">RQF002</td>
+                <td id="Td3"><b>Nombre:</b> Gestionar Productos</td>
+            </tr>
+            <tr>
+                <td id="Td3"><b>Descripción:</b> El usuario administrador tendrá control total sobre la gestión de
+                productos (registrar, consultar, modificar, inactivar) mientras que el cliente sólo 
+                podrá consultar los productos disponibles</td>
+            </tr>
+            <tr>
+                <td id="Td3"><b>Usuarios:</b> administrador, cliente</td>
+            </tr>
+        </tbody>
+    </table>
+<br><br>
+    <table border="solid">
+        <thead>
+            <tr>
+
+                <th id="th2">CÓDIGO</th>
+                <th id="th2">REQUISITOS FUNCIONALES</th>
+        </thead>
+        </tr>
+        <tr>
+        <tbody>
+                <td rowspan="4" id="Td1">RQF002</td>
+                <td id="Td3"><b>Nombre:</b> Gestionar Usuarios</td>
+            </tr>
+            <tr>
+                <td id="Td3"><b>Descripción:</b> El usuario administrador tendrá control total sobre la gestión de usuarios (registrar, consultar, modificar, inactivar) mientras que el cliente sólo podrá consultar y modificar sus propios datos, así como realizar el registro y la inactivación de su cuenta de usuario</td>
+            </tr>
+            <tr>
+                <td id="Td3"><b>Usuarios:</b> administrador, cliente</td>
+            </tr>
+        </tbody>
+    </table>
+<br><br>
+    <table border="solid">
+        <thead>
+            <tr>
+                <th id="th2">CÓDIGO</th>
+                <th id="th2">REQUISITOS FUNCIONALES</th>
+        </thead>
+        </tr>
+        <tr>
+        <tbody>
+                <td rowspan="4" id="Td1">RQF002</td>
+                <td id="Td3"><b>Nombre:</b> Gestionar Clientes</td>
+            </tr>
+            <tr>
+                <td id="Td3"><b>Descripción</b> El usuario administrador tendrá control total sobre la gestión de clientes (registrar, consultar, modificar, inactivar) mientras que el cliente sólo podrá consultar y modificar sus propios datos</td>
+            </tr>  
+            <tr>
+                <td id="Td3"><b>Usuarios:</b> administrador, cliente</td>
+            </tr> 
+        </tbody>
+    </table>
+</div>
+<div id="Cont">
+<h1 id="H01">Requisitos No Funcionales</h1>
+</div>
+<div id="Div6">
+    <table border="solid">
+        <thead>
+            <tr>
+                <th id="th2">CÓDIGO</th>
+                <th id="th2">REQUISITOS NO FUNCIONALES</th>
+            </tr>
+        </thead>
+        <tr>
+            <tbody>
+                <td rowspan="4" id="Td1">RQNF001</td>
+                <td id="Td3"><b>Nombre:</b> Especificaciones Mínimas de Hardware y Software</td>
+            </tr>
+            <tr>
+                <td id="Td3"><b>Descripción:</b> Tener acceso a uno o más Computadores <br> Mínimo 2 GB RAM <br> Sistema Operativo Windows 7 o superior <br> Disco duro de 500 GB <br> Que tenga las herramientas y programas necesarios para llevar a cabo el aplicativo, base de datos (SQL SERVER).</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table border="solid">
+        <thead>
+            <tr>
+                <th id="th2">CÓDIGO</th>
+                <th id="th2">REQUISITOS NO FUNCIONALES</th>
+            </tr>
+        </thead>
+        <tr>
+            <tbody>
+                <td rowspan="4" id="Td1">RQNF002</td>
+                <td id="Td3"><b>Nombre:</b> Conexión internet</td>
+            </tr>
+            <tr>
+                <td id="Td3"><b>Descripción:</b> La empresa debe contrar con una red LAN que le permitirá conectar sus terminales de trabajo al servidor de una forma más adecuada para hacer uso del aplicativo</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table border="solid">
+        <thead>
+            <tr>
+                <th id="th2">CÓDIGO</th>
+                <th id="th2">REQUISITOS NO FUNCIONALES</th>
+            </tr>
+        </thead>
+        <tr>
+            <tbody>
+                <td rowspan="4" id="Td1">RQNF003</td>
+                <td id="Td3"><b>Nombre:</b> Diseño de Interfaz grafica</td>
+            </tr>
+            <tr>
+                <td id="Td3"><b>Descripción:</b> El aplicativo debe hacer uso de colores y fuentes que faciliten la adecuada visualización por parte del usuario y sean Acordes con la imagen corporativo de la empresa. <br> Vehículo</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

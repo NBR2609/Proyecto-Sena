@@ -1,0 +1,194 @@
+div#General{
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(144, 202, 249);
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+button#B {
+    background-color: rgb(240, 62, 121);
+    width: 100px;
+    height: 20px;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+button#B1{
+    background-color: rgb(196, 57, 255);
+    width: 100px;
+    height: 20px;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+button#B2{
+    background-color: rgb(179, 0, 255);
+    width: 100px;
+    height: 20px;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+button#B3{
+    background-color: rgb(201, 75, 255);
+    width: 100px;
+    height: 20px;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+button#B4{
+    background-color: rgb(190, 37, 255);
+    width: 100px;
+    height: 20px;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+input#In1{
+    background-color: rgba(255, 255, 255, 0.5);
+    border:none;
+    outline: 0px;
+}
+
+input#In2{
+    background-color: rgba(255, 255, 255, 0.5);
+    border:none;
+    outline: 0px;
+}
+
+input#In3{
+    background-color: rgba(132, 113, 255, 0.2);
+    border:none;
+    outline: 0px;
+}
+
+input#In4{
+    background-color: rgba(132, 113, 255, 0.2);
+    border:none;
+    outline: 0px;
+}
+
+body#Bo1{
+    background-size: cover;
+	background-attachment: fixed;
+    font-family: 'Pontano Sans', sans-serif;
+    background-color: #e3f8fe;
+	
+}
+
+table{
+    background-color:  white;
+    width: 75%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th#th2{
+    border: solid 1px rgb(12, 255, 3);
+    padding: 10px;
+
+}
+ thead{
+    background-color: greenyellow;
+    text-align: center;
+}
+
+td#Td1{
+    width: 100px;
+    text-align: center;
+    border: solid 1px rgb(12, 255, 3);
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    height: 95px;
+    justify-content: space-between;
+    background-color: #c7f1fd;
+    align-items: center ;
+    padding: 10px;
+    word-spacing: 1px;
+}
+
+a#a1{
+    text-decoration: none;
+    color: black;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+}
+
+.Logo img {
+    height: 135px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+a#a1:hover{
+    color: white;
+}
+
+table#Table1{
+    background-color:  white;
+    width: 65%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th#th1{
+    border: solid 1px rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(8, 36, 100);
+    color: white;
+    
+}
+ thead#thead1{
+    background-color: rgb(8, 36, 100);
+    text-align: center;
+    color: white;
+}
+
+td#Td2{
+    width: 100px;
+    padding: 10px;
+    border: solid 1px rgb(0, 0, 0);
+}
+
+td#Td3{
+    border: solid 1px rgb(12, 255, 3);
+    padding: 10px;  
+}
+
+td#Td4{
+    width: 10px;
+    text-align: center;
+    padding: 10px;
+    border: solid 1px rgb(0, 0, 0);
+}
+
+td#Td5{
+    width: 100px;
+    padding: 10px;
+    border: solid 1px rgb(0, 0, 0);
+    background-color: rgb(224, 228, 244);
+}
+
+img#C1{
+    border-style: groove;
+    border-color: #c7f1fd;
+    border-radius: 5%;
+}

@@ -1,0 +1,60 @@
+Create table Usuario (
+Usua_codigo	int PRIMARY KEY AUTO_INCREMENT,
+Usua_nombre	Varchar(32), 
+Usua_clave	Varchar(32)	
+);
+
+CREATE TABLE Admin (
+Admi_codigo int Primary key AUTO_INCREMENT, 
+Admi_identificacion Varchar(20), 
+Admi_tipoIdentificacion Varchar(15), 
+Admi_nombre Varchar(50) , 
+Admi_apellido Varchar(50), 
+Admi_celular Varchar(20), 
+Admi_direccion Varchar(50) , 
+Usua_codigo_fk int, 
+FOREIGN KEY (Usua_codigo_fk) 
+REFERENCES usuario (usua_codigo) );
+
+CREATE TABLE Cliente (
+clie_codigo	int	Primary key AUTO_INCREMENT,
+clie_identificacion	Varchar(20),	 	
+clie_tipoIdentificacion	Varchar(15),
+clie_nombre	Varchar(50),
+clie_apellido	Varchar(50),
+clie_celular	Varchar(20),
+clie_direccion	Varchar(50), 
+Usua_codigo_fk int,
+FOREIGN KEY (usua_codigo_fk)
+REFERENCES usuario (usua_codigo)
+)
+
+CREATE table venta (
+Vent_codigo int Primary key AUTO_INCREMENT,
+Vent_fecha date,
+Vent_total int ,
+Vent_cantidadTotal int,
+Clie_codigo_fk	int,
+Vend_codigo_fk	int,
+FOREIGN KEY (clie_codigo_fk)
+REFERENCES cliente (clie_codigo),
+FOREIGN KEY (Vend_codigo_fk)
+REFERENCES admin (Admi_codigo) 
+)
+
+CREATE TABLE producto ( Prod_codigo int Primary key AUTO_INCREMENT,
+Prod_nombre Varchar(50), 
+Prod_precioVenta int, 
+Prod_cantidadStock Int , 
+Prod_unidadMedida Varchar(50) , 
+Prod_descripcion Text 
+)
+
+CREATE TABLE Detalle_venta ( Deve_codigo int Primary key AUTO_INCREMENT,
+ Deve_subtotal int, 
+Deve_cantidadPorProducto int, 
+Vent_codigo_fk Int, Prod_codigo_fk Int, 
+FOREIGN KEY (Vent_codigo_fk) 
+REFERENCES venta (Vent_codigo), 
+FOREIGN KEY (Prod_codigo_fk) 
+REFERENCES producto (prod_codigo) ) 

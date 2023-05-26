@@ -1,0 +1,49 @@
+Img#Img1{
+    border-style: groove;
+    border-radius: 10%;
+    border-color: #c7f1fd;
+}
+
+img#M1{
+    float: left;
+}
+a#A2{
+    text-decoration: double;
+}
+
+div#Div6{
+    float: left;
+    width: 900px;
+    margin: 20px;
+}
+
+
+img#Img3{
+    float: left;
+}
+
+
+
+div#Hoja{
+    background-color: rgb(255, 255, 255);
+    height: 2550px;
+    width: 1200px;
+
+}
+
+div#Div4{
+    padding: 50px;
+}
+
+div#Div5{
+    padding: 18px;
+}
+
+
+p#P1{
+    font-size: 30px;
+}
+
+img#Y{
+    border-radius: 25%;
+}

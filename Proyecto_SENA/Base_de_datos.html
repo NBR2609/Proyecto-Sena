@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base de datos | Blankarti</title>
+    <link rel="stylesheet" href="Assets/Css/Styles.css">
+    <link rel="stylesheet" href="Assets/Css/Styles2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap" rel="stylesheet">
+</head>
+<body id="Bo1">
+    <header>
+        <a href="Inicio.html" class="Logo" id="a1">
+            <img src="Assets/Img/Logo.png" alt="Blankarti"id="q">
+            <h2 class="Nombre-empresa" >Blankarti</h2>
+        </a>
+        </div>
+        <nav>
+            <a href="Inicio.html" class="nav-link" id="a1">Inicio</a>
+            <a href="Formato.html" class="nav-link" id="a1">Formato de aprendiz</a>
+            <a href="Problematica.html" class="nav-link" id="a1">Problematica</a>
+            <a href="Documentos.html" class="nav-link" id="a1">Modulos y Requisitos</a>
+            <a href="Diagramas.html" class="nav-link" id="a1">Diagramas y Documentación</a>
+            <a href="Base_de_datos.html" class="nav-link" id="a1">Base de datos</a>
+            <a href="https://www.facebook.com/ArtesaniasEnPorcelanicron.1" class="nav-link"><img src="Assets/Img/F.png" alt="Facebook" height="25px" width="25px"></a>
+            <a href="https://www.instagram.com/blankarti/" class="nav-link"><img src="Assets/Img/In.png" alt="Instagram" height="25px" width="25px"></a>
+            <a href="https://api.whatsapp.com/send?phone=%2B573102734744&fbclid=IwAR1MDMxlERasZUvm8smRbqrODp5791ov4vvlS4SJ_Mm799KwsoEUFgjhZU8" class="nav-link"><img src="Assets/Img/W.png" alt="WhatsApp" height="25px" width="25px"></a>
+        </nav>
+    </header>
+<div id="Div5">
+    <h1>Base de Datos</h1>
+    <br><br>
+    <img src="Assets/Img/BD.jpeg" alt="Base de datos" height="550px" width="750px" id="M1" hspace="50px">
+    <embed src="Assets/Docs/CREATE DATABASE Blankarti.pdf" width="1000px" height="500px">
+    <br><br>
+    <a href="Assets/Downloads/blankarti.sql" download id="A2">Base de Datos Blankarti.sql...</a>
+    <br><br>
+    <h1>CRUD</h1>
+        <ul>
+            <li><b>Create</b></li>
+            <img src="Assets/Img/In1.jpg" alt="Inserciones" height="500px" width="550px" hspace="50px">
+            <img src="Assets/Img/In2.jpg" alt="Inserciones" height="500px" width="550px" hspac="50px">
+            <br><br><br><br>
+            <embed src="Assets/Docs/Insert Into .pdf" width="1200px" height="600px" hspace="50px">
+            <br><br><br>
+            </ul>
+            <ul>
+            <li><b>Read</b></li>
+            <br><br>
+            <img src="Assets/Img/Read.jpg" id="Img3" alt="Read" height="440px" width="700px" hspace="50px">
+            <p>SELECT * FROM cliente</p>
+            <br><br>
+            </ul>
+            <ul>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <li><b>Update</b></li>
+            <br><br>
+            <img src="Assets/Img/Update.jpg" id="Img3" alt="Update" height="450px" width="500px" hspace="50px">
+            <p>UPDATE cliente SET clie_apellido = "Fernandez" WHERE clie_apellido = "Perales";</p>
+            <p>UPDATE cliente SET clie_nombre = "Andres" WHERE clie_nombre = "Carlos";</p>
+            <br><br>
+            </ul>
+            <ul>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <li><b>Delete</b></li>
+            <br><br>
+            <img src="Assets/Img/Delete.jpg" id="Img3" alt="Delete" height="450px" width="500px" hspace="50px">
+            <p>DELETE FROM cliente WHERE clie_codigo = 11;</p>
+            </ul>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1>Consultas general y especificas:</h1>
+            <ul>
+                <li><b>Consulta General</b></li>
+                <br><br>
+                <img src="Assets/Img/ConG.jpg" id="Img3" alt="Consulta general" height="500px" width="800px" hspace="50px">
+                <p>SELECT * FROM cliente WHERE 1;</p>
+            </ul>
+            <ul>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li><b>Consulta Especifica</b></li>
+                <br><br>
+                <img src="Assets/Img/ConE.jpg" id="Img3" alt="Consulta Especifica" height="500px" width="800px" hspace="50px">
+                <p>SELECT clie_codigo,clie_nombre,clie_apellido FROM cliente WHERE 1;</p>
+            </ul>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1>Inner Join</h1>
+        <br><br>
+        <img src="Assets/Img/InnerJ1.jpg" id="Img3" alt="Inner Join" height="266px" width="1148px" hspace="30px">
+        <p>SELECT * FROM venta INNER JOIN Cliente ON venta.Clie_codigo_fk = cliente.clie_codigo;</p>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <img src="Assets/Img/InnerJ2.jpg" id="Img3" alt="Inner Join" height="485px" width="1130px" hspace="30px">
+        <p>SELECT * FROM cliente INNER JOIN usuario ON cliente.Usua_codigo_fk = usuario.Usua_codigo;</p>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <img src="Assets/Img/InnerJ3.jpg" id="Img3"id="Img3" alt="Inner Join" hspace="30px">
+        <p>SELECT * FROM producto INNER JOIN detalle_venta ON producto.Prod_codigo = detalle_venta.Prod_codigo_fk;</p>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1>Procedimiento Almacenado</h1>
+        <br><br>
+        <img src="Assets/Img/PA.jpg" alt="Procedimiento Almacenado" id="Img3" height="211px" width="1154px" hspace="50px">
+        <p>CREATE PROCEDURE cliente () SELECT clie_codigo,clie_nombre,clie_apellido,clie_celular FROM cliente WHERE 1;</p>
+        <br><br><br><br><br><br><br><br><br>
+        <img src="Assets/Img/CA.jpg" alt="Call" id="Img3" height="542px" width="589px" hspace="50px">
+        <p>CALL cliente ();</p>
+</div>
+</body>
+</html>
